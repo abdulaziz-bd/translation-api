@@ -6,6 +6,7 @@ app = FastAPI(
     title="Translation API",
     description="API for translating text using NLLB model",
     version="1.0.0",
+    root_path="/translation",
     docs_url="/docs",
     redoc_url="/redoc",
     openapi_url="/openapi.json"
