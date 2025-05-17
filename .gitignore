@@ -1,0 +1,6 @@
+# Ignore all hidden files and folders
+.*
+# Except .gitignore and .gitattributes (still tracked)
+!.gitignore
+!.gitattributes
+
