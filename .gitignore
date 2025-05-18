@@ -4,3 +4,16 @@
 !.gitignore
 !.gitattributes
 
+# Ignore __pycache__ directories anywhere in the project
+__pycache__/
+*/__pycache__/
+*/**/__pycache__/
+
+# Alternative simpler syntax that works in Git 1.8.2+
+**/__pycache__/
+
+# Ignore Python compiled files anywhere
+*.pyc
+*.pyo
+*.pyd
+.Python
